@@ -263,17 +263,18 @@ body {
 nav{
     position:fixed;
 }
-@media (max-width: 673px) {
+/*@media (max-width: 673px) {
     body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 90%;
         min-height: 1000px;
     }
-}
-/*@media only screen and (max-width: 700px) {
+}*/
+@media only screen and (max-width: 700px) {
   body {
+	display:block;
     background-color: red;
 
     }
-}*/
+}
