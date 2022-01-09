@@ -264,7 +264,7 @@ nav{
     position:fixed;
 }
 @media (max-width: 673px) {
-    .main-content{
+    body{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 90%;
